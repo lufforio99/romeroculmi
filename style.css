@@ -1,0 +1,109 @@
+/* CSS styles */
+
+h1
+{
+  font-family: monospace;
+  text-align: center;
+  color: rgb(255,158,181);
+}
+
+body {
+  border: solid;
+  border-top: none;
+  border-color: rgb(255,91,130);
+  margin: 20px;
+}
+
+#bar {
+  border: solid;
+  border-right: none;
+  border-left: none;
+  border-color: rgb(255,91,130);
+  background-color: rgb(255,184,201);
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+#icon {
+  height: 25px;
+}
+
+#header {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button {
+  height: 150px;
+}
+
+#table-menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  font-family: Rockwell, sans-serif;
+  text-align: center;
+  color: rgb(255,91,130);
+  font-style: oblique;
+  font-size: 16px;
+}
+
+#profile {
+  height: 150px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  flex: 10%;
+  background-color: rgb(255,184,201);
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+}
+
+.box2 {
+  flex: 10%;
+  color: rgb(255,91,130);
+  border: 2px solid;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  text-align: justify;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+}
+
+em {
+  font-size: 20px;
+}
+
+.nav {
+  display: block;
+  margin: 0 auto;
+}
+
+#column {
+  flex: 20%;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#virus{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: blue;
+  font-size: 40px;
+  text-decoration: underline solid blue;
+}
